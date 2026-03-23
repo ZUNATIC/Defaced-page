@@ -9,15 +9,15 @@ A lightweight, single-page web template featuring a dynamic Matrix-style rain ef
 
     Thematic Styling: Neon green glow effects (text-shadow and box-shadow) against a dark background.
 
-    Auto-Play Audio: Includes an integrated audio player set to play team anthems (subject to browser auto-play policies).
+    Auto-Play Audio: Includes an integrated audio player set to play team anthems.
 
     Lightweight: Single-file HTML/CSS/JS with minimal external dependencies.
 
 📂 Project Structure
 File	Description
-index.html	The main entry point containing HTML structure, CSS styles, and JS logic.
-black_Tomato.jpg	The team logo image (required).
-anthem.mp3	The background music file (required).
+index.html	The main entry point containing HTML, CSS, and JS logic.
+black_Tomato.jpg	The team logo image (Required).
+anthem.mp3	The background music file (Required).
 🛠️ Customization
 
 To make this page your own, look for the following sections in index.html:
@@ -39,17 +39,16 @@ setInterval(draw, 35); // 35ms per frame
 
 3. Audio Policies
 
-Note that modern browsers (Chrome, Firefox, Safari) often block audio from playing automatically without user interaction. The script includes a 500ms delay attempt to unmute, but for the best results, users may need to click anywhere on the page first.
+    Note: Modern browsers (Chrome, Firefox, Safari) often block audio from playing automatically. For the best results, users may need to click anywhere on the page to trigger the sound.
+
 📝 Usage
 
     Clone this repository or copy the code into a file named index.html.
 
-    Place your logo as black_Tomato.jpg in the same directory.
+    Add Assets: Place your logo (black_Tomato.jpg) and music (anthem.mp3) in the same folder.
 
-    Place your music file as anthem.mp3 in the same directory.
-
-    Open index.html in any modern web browser.
+    Launch: Open index.html in any modern web browser.
 
 ⚠️ Disclaimer
 
-This project is intended for educational purposes, and artistic expression. Please use responsibly and only on systems you own or have explicit permission to modify.
+This project is intended for educational purposes, CTF competitions, and artistic expression. Please use responsibly and only on systems you own or have explicit permission to modify.
