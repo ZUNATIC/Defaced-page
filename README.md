@@ -1,54 +1,72 @@
-🍅 Team Tomato Defacement Page
+<h1>🍅Defacement Page</h1>
 
-A lightweight, single-page web template featuring a dynamic Matrix-style rain effect, custom typography, and integrated audio. Designed for cybersecurity enthusiasts, CTF participants, and "hacker-chic" web design.
-🚀 Features
+<p>A lightweight, single-page web template featuring a dynamic <b>Matrix-style rain effect</b>, custom typography, and integrated audio. Designed for cybersecurity enthusiasts.</p>
 
-    Matrix Rain Canvas: A custom JavaScript implementation of the classic digital rain effect.
+<hr>
 
-    Responsive Typography: Uses the Passion One Google Font for a bold, impactful look.
+<h2>🚀 Features</h2>
+<ul>
+  <li><b>Matrix Rain Canvas:</b> A custom JavaScript implementation of the classic digital rain effect</li>
+  <li><b>Thematic Styling:</b> Neon green glow effects against a dark background</li>
+  <li><b>Auto-Play Audio:</b> Integrated audio player for team anthems</li>
+</ul>
 
-    Thematic Styling: Neon green glow effects (text-shadow and box-shadow) against a dark background.
+<hr>
 
-    Auto-Play Audio: Includes an integrated audio player set to play team anthems.
+<h2>📂 Project Structure</h2>
+<table>
+  <tr>
+    <th>File</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><code>index.html</code></td>
+    <td>The main entry point (HTML, CSS, and JS)</td>
+  </tr>
+  <tr>
+    <td><code>black_Tomato.jpg</code></td>
+    <td>The team logo image</td>
+  </tr>
+  <tr>
+    <td><code>anthem.mp3</code></td>
+    <td>The background music file</td>
+  </tr>
+</table>
 
-    Lightweight: Single-file HTML/CSS/JS with minimal external dependencies.
+<hr>
 
-📂 Project Structure
-File	Description
-index.html	The main entry point containing HTML, CSS, and JS logic.
-black_Tomato.jpg	The team logo image (Required).
-anthem.mp3	The background music file (Required).
-🛠️ Customization
+<h2>🛠️ Customization</h2>
 
-To make this page your own, look for the following sections in index.html:
-1. Update the Roster
+<h3>1. Update the Roster</h3>
+<p>Edit the text inside the <code>members</code> div to change the names:</p>
 
-Edit the text inside the #members div to reflect your team:
-HTML
-
-<div id="members">
+<pre><code>
+&lt;div id="members"&gt;
     🥷 YOUR_NAME | 🥷 MEMBER_2 | 🥷 MEMBER_3
-</div>
+&lt;/div&gt;
+</code></pre>
 
-2. Change the Matrix Speed
+<hr>
 
-In the <script> tag, adjust the setInterval value. Lower numbers make the rain fall faster:
-JavaScript
+<h3>2. Change the Matrix Speed</h3>
+<p>In the <code>&lt;script&gt;</code> tag, adjust the <code>35</code> value. Lower is faster:</p>
 
-setInterval(draw, 35); // 35ms per frame
+<pre><code>
+setInterval(draw, 35);
+</code></pre>
 
-3. Audio Policies
+<hr>
 
-    Note: Modern browsers (Chrome, Firefox, Safari) often block audio from playing automatically. For the best results, users may need to click anywhere on the page to trigger the sound.
+<h2>📝 Usage Instructions</h2>
+<ol>
+  <li>Save the code as <code>index.html</code>.</li>
+  <li>Place <code>black_Tomato.jpg</code> and <code>anthem.mp3</code> in the same folder.</li>
+  <li>Open <code>index.html</code> in your browser.</li>
+</ol>
 
-📝 Usage
+<hr>
 
-    Clone this repository or copy the code into a file named index.html.
+<h2>⚠️ Disclaimer</h2>
+<p>This project is for <b>educational purposes</b> only.</p>
 
-    Add Assets: Place your logo (black_Tomato.jpg) and music (anthem.mp3) in the same folder.
-
-    Launch: Open index.html in any modern web browser.
-
-⚠️ Disclaimer
-
-This project is intended for educational purposes, CTF competitions, and artistic expression. Please use responsibly and only on systems you own or have explicit permission to modify.
+<p><b>Developed by ZUNATIC</b> 🍅</p>
